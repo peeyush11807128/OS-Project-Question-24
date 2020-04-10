@@ -21,7 +21,9 @@ main()
 	int b;
 	scanf("%d",&b);
 	int c[b][a],max[b][a],need[b][a],avali[a];
+	
 	m:for(i=0;i<b;i++)
+	
 	for(j=0;j<a;j++)
 	{
 		printf("\nP[%d] allocation of %c",i,(char)65+j);
@@ -30,6 +32,7 @@ main()
 		scanf("%d",&max[i][j]);
 		need[i][j]=max[i][j]-c[i][j];
 	}
+	
 	for(j=0;j<a;j++)
 	{
 	for(i=0;i<b;i++)
