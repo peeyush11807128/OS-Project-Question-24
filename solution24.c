@@ -10,11 +10,13 @@ main()
 	scanf("%d",&a);
 	int res[a];
 	printf("Enter the total Weight of All Resource\n");
+	
 	for(i=0;i<a;i++)
 	{
 		printf("%c is  ",65+i);
 		scanf("%d",&res[i]);
 	}
+	
 	printf("\nEnter how many process u have ");
 	int b;
 	scanf("%d",&b);
