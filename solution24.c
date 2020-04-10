@@ -39,9 +39,10 @@ main()
 			{
 				avali[j]=avali[j]+c[i][j];
 			}
-	avali[j]=res[j]-avali[j];
-	}
+		avali[j]=res[j]-avali[j];
+		}
 	i=0;
+	
 	while(counter<b&&t<b)
 	{
 		bol=true;
