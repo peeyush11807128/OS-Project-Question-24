@@ -34,11 +34,11 @@ main()
 	}
 	
 	for(j=0;j<a;j++)
-	{
-	for(i=0;i<b;i++)
-	{
-		avali[j]=avali[j]+c[i][j];
-	}
+		{
+			for(i=0;i<b;i++)
+			{
+				avali[j]=avali[j]+c[i][j];
+			}
 	avali[j]=res[j]-avali[j];
 	}
 	i=0;
