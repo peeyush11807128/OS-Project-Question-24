@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdbool.h>
 int i,j,t;
 int counter =0;
 bool bol=false;
